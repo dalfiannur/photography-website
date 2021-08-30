@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+body {
+  height: 100%;
+  min-height: 600px;
+  margin: 0;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html body {
+  font-family: Roboto;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+#___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+}
+
+.animation-width {
+  transition: width .3s;
+  transition-timing-function: linear;
+}
